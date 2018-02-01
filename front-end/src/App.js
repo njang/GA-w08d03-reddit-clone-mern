@@ -11,9 +11,7 @@ class App extends Component {
           <h1 className="App-title">reddit</h1>
           <h2 className="App-blurb">The front page of the web</h2>
         </header>
-        <TextPost/>
-        <TextPost/>
-        <TextPost/>
+
       </div>
     );
   }
