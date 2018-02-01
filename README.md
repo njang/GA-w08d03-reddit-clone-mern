@@ -21,7 +21,7 @@ Building a [Reddit](https://www.reddit.com/) clone using the popular MERN (Mongo
 ## CREATING THE BACK-END
 
 ### Creating TextPost resource
-1. Create a `TextPost` model that contains `title`, `content`, `thumbnail_image_url`, `votes`, `comments` (`comments` should be an array of (embedded)[https://github.com/SF-WDI-LABS/mongoose-associations] `Comment` models)
+1. Create a `TextPost` model that contains `title`, `content`, `thumbnail_image_url`, `votes`, `comments` (`comments` should be an array of [embedded](https://github.com/SF-WDI-LABS/mongoose-associations) `Comment` models)
 2. Add the following API CRUD routes for `Posts`
     - `/api/posts` – GET, POST
     - `/api/posts/:post_id` – GET, PUT, DELETE
